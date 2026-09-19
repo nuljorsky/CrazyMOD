@@ -1,0 +1,19 @@
+{
+  "schemaVersion": 1,
+  "id": "crazymod",
+  "version": "${version}",
+  "name": "CrazyMOD",
+  "description": "Menu CRAZY (klawisz N): Auto Nielotka, Tracers, Nametag, Kopiowanie.",
+  "authors": ["CrazyMOD"],
+  "license": "MIT",
+  "environment": "client",
+  "entrypoints": {
+    "client": ["pl.crazymod.CrazyModClient"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16.9",
+    "minecraft": "~1.21.4",
+    "java": ">=21",
+    "fabric-api": "*"
+  }
+}
